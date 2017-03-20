@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    color: #222;
+    background-color: #fcfcfc;
+    text-align: justify;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    color: #fefefe;
+}
+
+section.partial {
+    height: auto;
+
+}
+
+.description {
+    padding: 0 1rem;
+    width: 85%;
+}
+
+.description-row {
+    padding: 11rem 2rem 13rem 2rem;
+}
+
+.top-description-row {
+    padding: 11rem 2rem 4rem 2rem;
+}
+
+.icons {
+    background-color: #fcfcfc;
+    color: #3b3b3b;
+    text-shadow: none;
+}
+
+.icons h1 {
+    margin-top: 8rem;
+}
+
+
+.icons-row {
+    padding: 4rem .5rem 10rem .5rem;
+
+}
+
+.staff {
+    /*width: 90% !important;*/
+    margin: 4rem 0rem 13rem 0rem;
+}
+
+.staff-member {
+    padding-top: 1rem;
+}
+
+.staff-member h2 {
+    margin: 1rem 0 0 0;
+    padding: 0;
+}
+
+.staff-member p {
+    margin: .5rem 0 0 0;
+    padding: 0;
+}
+
+.row {
+    /*width: 100%;*/
+    /*margin: 0 !important;*/
+}
+
+section.first {
+    height: 90vh;
+    background-image: url('../images/forest_smaller.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.white {
+    color: #3b3b3b;
+    background-color: #fcfcfc;
+    text-shadow: none;
+}
+
+.beans {
+    background-image: url('../images/beans_smaller.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grass {
+    background-image: url('../images/grass_smaller.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tint {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 35, 35, 0.25);
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+#image-first {
+    background-blend-mode: soft-light;
+    background-image: url('../images/hipster_logo.png');
+    background-size: contain;
+    background-size: 65vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.circular-image {
+    border-radius: 50%;
+}
+
+.icon {
+    padding-top: 1.5rem;
+}
+
+.icon img {
+    width: 90%;
+    max-width: 100px;
+}

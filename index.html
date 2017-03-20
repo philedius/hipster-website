@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>hip</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="first">
+        <div class="image" id="image-first"></div>
+    </section>
+    <section class="partial white">
+        <div class="row around-xs center-xs top-description-row">
+            <div class="col-xs-12 col-sm-8 col-lg-6">
+                <div aos="fade-up" class="description">
+                    <h1>The #1 Free-Range Café Du Cycliste</h1>
+                    <p>Voted the best Free-Range Café for cyclists, we are a diverse multicultural mustachio'd ensemble of neo-urban baristas based in San Francisco, California.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row center-xs staff">
+            <div class="col-xs-12 col-sm-4">
+                <div aos="fade-up" class="staff-member">
+                    <img class="circular-image" src="../images/hipster01.jpg" alt="">
+                    <div class="staff-member-description">
+                        <h2>Reggie Isaiah</h2>
+                        <p>Coffee designer & barista</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <div aos="fade-up" class="staff-member">
+                    <img class="circular-image" src="../images/hipster02.jpg" alt="">
+                    <div class="staff-member-description">
+                        <h2>Buckler M. Bowlby</h2>
+                        <p>Bike repair artist</p>
+                    </div>
+                </div>
+            </div>
+                <div class="col-xs-12 col-sm-4">
+                <div aos="fade-up" class="staff-member">
+                    <img class="circular-image" src="../images/hipster03.jpg" alt="">
+                    <div class="staff-member-description">
+                        <h2>Francois DeMarques</h2>
+                        <p>Interior decorateur, chief barista</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partial beans">
+        <div class="row around-xs center-xs description-row">
+            <div class="col-xs-12 col-sm-8 col-lg-6">
+                <div class="description" data-aos="fade-up">
+                    <h1>Freerange beans</h1>
+                    <p>We are proud to say that each and every one of our coffee beans get to spend at least five hours a day frolicking in the open field while at their stay at the roastery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partial grass">
+        <div class="tint">
+            <div class="row around-xs center-xs description-row">
+                <div class="col-xs-12 col-sm-8 col-lg-6">
+                    <div class="description" >
+                        <h1>Our field</h1>
+                        <p>We have 50 acres of open field. The grass on the field was rescued from a building site for an industrial complex. The field has a naturally formed lake for the beans to bathe in.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partial icons">
+        <div class="row around-xs center-xs">
+            <h1>Stay connected with favorite baristas</h1>
+        </div>
+        <div class="row around-xs center-xs icons-row">
+            <div class="col-xs-4 col-sm-2 icon">
+                <img src="../images/icons/Facebook.svg" alt="">
+            </div>
+            <div class="col-xs-4 col-sm-2 icon">
+                <img src="../images/icons/Twitter.svg" alt="">
+            </div>
+            <div class="col-xs-4 col-sm-2 icon">
+                <img src="../images/icons/Snapchat.svg" alt="">
+            </div>
+            <div class="col-xs-4 col-sm-2 icon">
+                <img src="../images/icons/Google+.svg" alt="">
+            </div>
+            <div class="col-xs-4 col-sm-2 icon">
+                <img src="../images/icons/Tumblr.svg" alt="">
+            </div>
+            <div class="col-xs-4 col-sm-2 icon">
+                <img src="../images/icons/Instagram.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript">
+        window.sr = ScrollReveal();
+        sr.reveal('.description', { duration: 750});
+        sr.reveal('.circular-image', { duration: 750}, 70);
+        sr.reveal('.staff-member-description', { duration: 750, delay: 200}, 70);
+        sr.reveal('#image-first', { duration: 750, delay: 500, scale: 0.5, rotate: {x: 90, y: 90, z: 90 }});
+        sr.reveal('.icons h1', { duration: 750});
+        sr.reveal('.icon', { duration: 750}, 70);
+    </script>
+</body>
+
+</html>
